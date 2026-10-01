@@ -2,27 +2,25 @@
 
 A small standalone Python example demonstrating basic vibration-signal analysis concepts used in VectoraLab.
 
+The analyzer reads vibration data from CSV files, extracts basic time-domain features, computes an FFT spectrum, and estimates the dominant frequency.
+
 ## Features
 
-The example:
+The example demonstrates:
 
-- Generates a synthetic rotating-machine vibration signal
-- Uses a 5 kHz sampling rate
-- Adds a harmonic component and measurement noise
-- Calculates RMS
-- Calculates peak amplitude
-- Calculates crest factor
-- Calculates kurtosis
-- Computes an FFT spectrum
-- Estimates the dominant frequency
-- Visualizes the time-domain waveform
-- Visualizes the frequency spectrum
+- 5 kHz vibration-signal analysis
+- RMS calculation
+- Peak amplitude calculation
+- Crest factor calculation
+- Kurtosis calculation
+- FFT-based frequency analysis
+- Dominant-frequency detection
+- Time-domain waveform visualization
+- Frequency-spectrum visualization
 
-## Requirements
+## Sample Data
 
-Python 3.10+ is recommended.
+Synthetic vibration datasets are included in:
 
-Install the required packages:
-
-```bash
-pip install numpy matplotlib
+```text
+../../sample-data/vibration/
